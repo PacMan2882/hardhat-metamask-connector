@@ -1,23 +1,23 @@
 # metamask-connector
 
-Metamask Connector is a tool to connect your metamask with your development environment, and let you say bye-bye to exposing your mnemonic or private key.
+Hardhat Metamask Connector is a tool to connect your metamask with your hardhat development environment, and let you say bye-bye to exposing your mnemonic or private key.
 
 # Install
 
-`npm install @PacMan2882/metamask-connector` 
+`npm install @PacMan2882/hardhat-metamask-connector` 
 
 or 
 
-`yarn @PacMan2882/metamask-connector` to install the npm package.
+`yarn @PacMan2882/hardhat-metamask-connector` to install the npm package.
 
 # Usage
 ```
-const { MetamaskConnector } = require("@PacMan2882/metamask-connector");
+const { MetamaskConnector } = require("@PacMan2882/hardhat-metamask-connector");
 ```
 or
 
 ```
-import { MetamaskConnector } from "@PacMan2882/metamask-connector";
+import { MetamaskConnector } from "@PacMan2882/hardhat-metamask-connector";
 ```
 
 ```
@@ -45,4 +45,4 @@ There is a sample test hardhat project, just run `npm install` and `npx hardhat 
     - [ ] WalletConnect
 
 ## Special thanks
-[metamask-client](https://github.com/PacMan2882/metamask-client)
+[hardhat-metamask-client](https://github.com/deusfinance/Hardhat-metamask-client)
